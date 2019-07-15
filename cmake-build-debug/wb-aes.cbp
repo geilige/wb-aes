@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="wb-aes"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\gtest\;CMake Files\cmake-build-debug\gtest\tmp\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testing">
+				<Option output="/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug/testing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug/gtest/src/gtest/googletest/include"/>
+					<Add directory="/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug/gtest/src/gtest/googlemock/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug/Makefile&quot;  VERBOSE=1 testing"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testing/fast">
+				<Option output="/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug/testing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug/gtest/src/gtest/googletest/include"/>
+					<Add directory="/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug/gtest/src/gtest/googlemock/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug/Makefile&quot;  VERBOSE=1 testing/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option working_dir="/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtesting">
+				<Option output="/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug/gtesting" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug/gtest/src/gtest/googletest/include"/>
+					<Add directory="/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug/gtest/src/gtest/googlemock/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug/Makefile&quot;  VERBOSE=1 gtesting"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtesting/fast">
+				<Option output="/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug/gtesting" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug/gtest/src/gtest/googletest/include"/>
+					<Add directory="/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug/gtest/src/gtest/googlemock/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug/Makefile&quot;  VERBOSE=1 gtesting/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main">
+				<Option output="/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug/gtest/src/gtest/googletest/include"/>
+					<Add directory="/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug/gtest/src/gtest/googlemock/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main/fast">
+				<Option output="/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug/gtest/src/gtest/googletest/include"/>
+					<Add directory="/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug/gtest/src/gtest/googlemock/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/geilige/Documents/work/CLionProjects/wb-aes/BGEAttack.cpp">
+			<Option target="testing"/>
+			<Option target="gtesting"/>
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/geilige/Documents/work/CLionProjects/wb-aes/BGEAttack.h">
+			<Option target="testing"/>
+			<Option target="gtesting"/>
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/geilige/Documents/work/CLionProjects/wb-aes/EncTools.cpp">
+			<Option target="testing"/>
+			<Option target="gtesting"/>
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/geilige/Documents/work/CLionProjects/wb-aes/EncTools.h">
+			<Option target="testing"/>
+			<Option target="gtesting"/>
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/geilige/Documents/work/CLionProjects/wb-aes/GenericAES.cpp">
+			<Option target="testing"/>
+			<Option target="gtesting"/>
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/geilige/Documents/work/CLionProjects/wb-aes/GenericAES.h">
+			<Option target="testing"/>
+			<Option target="gtesting"/>
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/geilige/Documents/work/CLionProjects/wb-aes/InputObject.cpp">
+			<Option target="testing"/>
+			<Option target="gtesting"/>
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/geilige/Documents/work/CLionProjects/wb-aes/InputObject.h">
+			<Option target="testing"/>
+			<Option target="gtesting"/>
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/geilige/Documents/work/CLionProjects/wb-aes/InputObjectBuffer.cpp">
+			<Option target="testing"/>
+			<Option target="gtesting"/>
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/geilige/Documents/work/CLionProjects/wb-aes/InputObjectBuffer.h">
+			<Option target="testing"/>
+			<Option target="gtesting"/>
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/geilige/Documents/work/CLionProjects/wb-aes/InputObjectIOstream.cpp">
+			<Option target="testing"/>
+			<Option target="gtesting"/>
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/geilige/Documents/work/CLionProjects/wb-aes/InputObjectIOstream.h">
+			<Option target="testing"/>
+			<Option target="gtesting"/>
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/geilige/Documents/work/CLionProjects/wb-aes/InputObjectIstream.cpp">
+			<Option target="testing"/>
+			<Option target="gtesting"/>
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/geilige/Documents/work/CLionProjects/wb-aes/InputObjectIstream.h">
+			<Option target="testing"/>
+			<Option target="gtesting"/>
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/geilige/Documents/work/CLionProjects/wb-aes/InputObjectOstream.cpp">
+			<Option target="testing"/>
+			<Option target="gtesting"/>
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/geilige/Documents/work/CLionProjects/wb-aes/InputObjectOstream.h">
+			<Option target="testing"/>
+			<Option target="gtesting"/>
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/geilige/Documents/work/CLionProjects/wb-aes/LinearAffineEq.cpp">
+			<Option target="testing"/>
+			<Option target="gtesting"/>
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/geilige/Documents/work/CLionProjects/wb-aes/LinearAffineEq.h">
+			<Option target="testing"/>
+			<Option target="gtesting"/>
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/geilige/Documents/work/CLionProjects/wb-aes/LinearAffineEq_test.cpp">
+			<Option target="testing"/>
+			<Option target="gtesting"/>
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/geilige/Documents/work/CLionProjects/wb-aes/MixingBijections.cpp">
+			<Option target="testing"/>
+			<Option target="gtesting"/>
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/geilige/Documents/work/CLionProjects/wb-aes/MixingBijections.h">
+			<Option target="testing"/>
+			<Option target="gtesting"/>
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/geilige/Documents/work/CLionProjects/wb-aes/NTLUtils.cpp">
+			<Option target="testing"/>
+			<Option target="gtesting"/>
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/geilige/Documents/work/CLionProjects/wb-aes/NTLUtils.h">
+			<Option target="testing"/>
+			<Option target="gtesting"/>
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/geilige/Documents/work/CLionProjects/wb-aes/RingBuffer.cpp">
+			<Option target="testing"/>
+			<Option target="gtesting"/>
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/geilige/Documents/work/CLionProjects/wb-aes/RingBuffer.h">
+			<Option target="testing"/>
+			<Option target="gtesting"/>
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/geilige/Documents/work/CLionProjects/wb-aes/WBAES.cpp">
+			<Option target="testing"/>
+			<Option target="gtesting"/>
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/geilige/Documents/work/CLionProjects/wb-aes/WBAES.h">
+			<Option target="testing"/>
+			<Option target="gtesting"/>
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/geilige/Documents/work/CLionProjects/wb-aes/WBAESGenerator.cpp">
+			<Option target="testing"/>
+			<Option target="gtesting"/>
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/geilige/Documents/work/CLionProjects/wb-aes/WBAESGenerator.h">
+			<Option target="testing"/>
+			<Option target="gtesting"/>
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/geilige/Documents/work/CLionProjects/wb-aes/base.cpp">
+			<Option target="testing"/>
+			<Option target="gtesting"/>
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/geilige/Documents/work/CLionProjects/wb-aes/base.h">
+			<Option target="testing"/>
+			<Option target="gtesting"/>
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/geilige/Documents/work/CLionProjects/wb-aes/main.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/geilige/Documents/work/CLionProjects/wb-aes/md5.c">
+			<Option target="testing"/>
+			<Option target="gtesting"/>
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/geilige/Documents/work/CLionProjects/wb-aes/md5.h">
+			<Option target="testing"/>
+			<Option target="gtesting"/>
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/geilige/Documents/work/CLionProjects/wb-aes/testing.cpp">
+			<Option target="testing"/>
+		</Unit>
+		<Unit filename="/Users/geilige/Documents/work/CLionProjects/wb-aes/testing.h">
+			<Option target="testing"/>
+		</Unit>
+		<Unit filename="/Users/geilige/Documents/work/CLionProjects/wb-aes/tests/Commons.cpp">
+			<Option target="gtesting"/>
+		</Unit>
+		<Unit filename="/Users/geilige/Documents/work/CLionProjects/wb-aes/tests/Commons.h">
+			<Option target="gtesting"/>
+		</Unit>
+		<Unit filename="/Users/geilige/Documents/work/CLionProjects/wb-aes/tests/EncToolsTest.cpp">
+			<Option target="gtesting"/>
+		</Unit>
+		<Unit filename="/Users/geilige/Documents/work/CLionProjects/wb-aes/tests/RingBufferTest.cpp">
+			<Option target="gtesting"/>
+		</Unit>
+		<Unit filename="/Users/geilige/Documents/work/CLionProjects/wb-aes/tests/WBAes.cpp">
+			<Option target="gtesting"/>
+		</Unit>
+		<Unit filename="/Users/geilige/Documents/work/CLionProjects/wb-aes/tests/tester.cpp">
+			<Option target="gtesting"/>
+		</Unit>
+		<Unit filename="/Users/geilige/Documents/work/CLionProjects/wb-aes/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/geilige/Documents/work/CLionProjects/wb-aes/cmake-build-debug/gtest/tmp/gtest-cfgcmd.txt.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\gtest\tmp\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

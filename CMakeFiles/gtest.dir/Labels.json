@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/geilige/Documents/work/CLionProjects/wb-aes/CMakeFiles/gtest"
+		},
+		{
+			"file" : "/Users/geilige/Documents/work/CLionProjects/wb-aes/CMakeFiles/gtest.rule"
+		},
+		{
+			"file" : "/Users/geilige/Documents/work/CLionProjects/wb-aes/CMakeFiles/gtest-complete.rule"
+		},
+		{
+			"file" : "/Users/geilige/Documents/work/CLionProjects/wb-aes/gtest/src/gtest-stamp/gtest-install.rule"
+		},
+		{
+			"file" : "/Users/geilige/Documents/work/CLionProjects/wb-aes/gtest/src/gtest-stamp/gtest-mkdir.rule"
+		},
+		{
+			"file" : "/Users/geilige/Documents/work/CLionProjects/wb-aes/gtest/src/gtest-stamp/gtest-download.rule"
+		},
+		{
+			"file" : "/Users/geilige/Documents/work/CLionProjects/wb-aes/gtest/src/gtest-stamp/gtest-update.rule"
+		},
+		{
+			"file" : "/Users/geilige/Documents/work/CLionProjects/wb-aes/gtest/src/gtest-stamp/gtest-patch.rule"
+		},
+		{
+			"file" : "/Users/geilige/Documents/work/CLionProjects/wb-aes/gtest/src/gtest-stamp/gtest-configure.rule"
+		},
+		{
+			"file" : "/Users/geilige/Documents/work/CLionProjects/wb-aes/gtest/src/gtest-stamp/gtest-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"gtest"
+		],
+		"name" : "gtest"
+	}
+}

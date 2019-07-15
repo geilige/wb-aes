@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/geilige/Documents/work/CLionProjects/wb-aes/md5.c
+md5.h
+/Users/geilige/Documents/work/CLionProjects/wb-aes/md5.h
+
+/Users/geilige/Documents/work/CLionProjects/wb-aes/md5.h
+

@@ -1,0 +1,14 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/geilige/Documents/work/CLionProjects/wb-aes
+HOME: /Users/geilige
+NTL_INCLUDE_PATH: /usr/local/include
+NTL_LIB: /usr/local/lib/libntl.a
+-- Boost version: 1.70.0
+-- Found the following Boost libraries:
+--   program_options
+--   serialization
+--   iostreams
+--   random
+--   regex
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/geilige/Documents/work/CLionProjects/wb-aes
