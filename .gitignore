@@ -1,0 +1,10 @@
+MakeCache.txt
+build-*/
+cmake-build-*/
+gtest/src
+gtest/tmp
+cmake_install.cmake
+gtesting
+main
+testing
+
